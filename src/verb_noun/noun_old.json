@@ -1,0 +1,57 @@
+[
+    {
+      "id": 0,
+      "name": "default",
+      "color": "#00FF00"
+    },
+    {
+      "id": 1,
+      "name": "leg",
+      "color": "#FF0000"
+    },
+    {
+      "id": 2,
+      "name": "table top",
+      "color": "#0000FF"
+    },
+    {
+      "id": 3,
+      "name": "table",
+      "color": "#FF00FF"
+    },
+    {
+      "id": 4,
+      "name": "shelf",
+      "color": "#00FF00"
+    },
+    {
+      "id": 5,
+      "name": "side panel",
+      "color": "#118822"
+    },
+    {
+      "id": 6,
+      "name": "top panel",
+      "color": "#776688"
+    },
+    {
+      "id": 7,
+      "name": "front panel",
+      "color": "#6600EE"
+    },
+    {
+      "id": 8,
+      "name": "back panel",
+      "color": "#AAAA33"
+    },
+    {
+      "id": 9,
+      "name": "bottom panel",
+      "color": "#552277"
+    },
+    {
+      "id": 10,
+      "name": "pin",
+      "color": "#CC66FF"
+    }
+  ]

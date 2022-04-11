@@ -1,0 +1,487 @@
+[
+    {
+        "id": 46,
+        "name": "add",
+        "color": "#00FF00"
+    },
+    {
+        "id": 17,
+        "name": "adjust",
+        "color": "#00FF00"
+    },
+    {
+        "id": 27,
+        "name": "apply",
+        "color": "#00FF00"
+    },
+    {
+        "id": 64,
+        "name": "attach",
+        "color": "#00FF00"
+    },
+    {
+        "id": 93,
+        "name": "bake",
+        "color": "#00FF00"
+    },
+    {
+        "id": 95,
+        "name": "bend",
+        "color": "#00FF00"
+    },
+    {
+        "id": 30,
+        "name": "break",
+        "color": "#00FF00"
+    },
+    {
+        "id": 57,
+        "name": "brush",
+        "color": "#00FF00"
+    },
+    {
+        "id": 89,
+        "name": "carry",
+        "color": "#00FF00"
+    },
+    {
+        "id": 24,
+        "name": "check",
+        "color": "#00FF00"
+    },
+    {
+        "id": 85,
+        "name": "choose",
+        "color": "#00FF00"
+    },
+    {
+        "id": 4,
+        "name": "close",
+        "color": "#00FF00"
+    },
+    {
+        "id": 66,
+        "name": "coat",
+        "color": "#00FF00"
+    },
+    {
+        "id": 45,
+        "name": "cook",
+        "color": "#00FF00"
+    },
+    {
+        "id": 49,
+        "name": "crush",
+        "color": "#00FF00"
+    },
+    {
+        "id": 7,
+        "name": "cut",
+        "color": "#00FF00"
+    },
+    {
+        "id": 52,
+        "name": "divide",
+        "color": "#00FF00"
+    },
+    {
+        "id": 60,
+        "name": "drink",
+        "color": "#00FF00"
+    },
+    {
+        "id": 59,
+        "name": "drop",
+        "color": "#00FF00"
+    },
+    {
+        "id": 14,
+        "name": "dry",
+        "color": "#00FF00"
+    },
+    {
+        "id": 35,
+        "name": "eat",
+        "color": "#00FF00"
+    },
+    {
+        "id": 20,
+        "name": "empty",
+        "color": "#00FF00"
+    },
+    {
+        "id": 54,
+        "name": "feel",
+        "color": "#00FF00"
+    },
+    {
+        "id": 26,
+        "name": "fill",
+        "color": "#00FF00"
+    },
+    {
+        "id": 37,
+        "name": "filter",
+        "color": "#00FF00"
+    },
+    {
+        "id": 80,
+        "name": "finish",
+        "color": "#00FF00"
+    },
+    {
+        "id": 87,
+        "name": "flatten",
+        "color": "#00FF00"
+    },
+    {
+        "id": 22,
+        "name": "flip",
+        "color": "#00FF00"
+    },
+    {
+        "id": 28,
+        "name": "fold",
+        "color": "#00FF00"
+    },
+    {
+        "id": 74,
+        "name": "form",
+        "color": "#00FF00"
+    },
+    {
+        "id": 63,
+        "name": "gather",
+        "color": "#00FF00"
+    },
+    {
+        "id": 77,
+        "name": "grate",
+        "color": "#00FF00"
+    },
+    {
+        "id": 41,
+        "name": "hang",
+        "color": "#00FF00"
+    },
+    {
+        "id": 34,
+        "name": "hold",
+        "color": "#00FF00"
+    },
+    {
+        "id": 70,
+        "name": "increase",
+        "color": "#00FF00"
+    },
+    {
+        "id": 5,
+        "name": "insert",
+        "color": "#00FF00"
+    },
+    {
+        "id": 51,
+        "name": "knead",
+        "color": "#00FF00"
+    },
+    {
+        "id": 79,
+        "name": "let-go",
+        "color": "#00FF00"
+    },
+    {
+        "id": 33,
+        "name": "lift",
+        "color": "#00FF00"
+    },
+    {
+        "id": 86,
+        "name": "lock",
+        "color": "#00FF00"
+    },
+    {
+        "id": 38,
+        "name": "look",
+        "color": "#00FF00"
+    },
+    {
+        "id": 73,
+        "name": "lower",
+        "color": "#00FF00"
+    },
+    {
+        "id": 94,
+        "name": "mark",
+        "color": "#00FF00"
+    },
+    {
+        "id": 69,
+        "name": "measure",
+        "color": "#00FF00"
+    },
+    {
+        "id": 10,
+        "name": "mix",
+        "color": "#00FF00"
+    },
+    {
+        "id": 11,
+        "name": "move",
+        "color": "#00FF00"
+    },
+    {
+        "id": 3,
+        "name": "open",
+        "color": "#00FF00"
+    },
+    {
+        "id": 32,
+        "name": "pat",
+        "color": "#00FF00"
+    },
+    {
+        "id": 19,
+        "name": "peel",
+        "color": "#00FF00"
+    },
+    {
+        "id": 9,
+        "name": "pour",
+        "color": "#00FF00"
+    },
+    {
+        "id": 92,
+        "name": "prepare",
+        "color": "#00FF00"
+    },
+    {
+        "id": 21,
+        "name": "press",
+        "color": "#00FF00"
+    },
+    {
+        "id": 31,
+        "name": "pull",
+        "color": "#00FF00"
+    },
+    {
+        "id": 1,
+        "name": "put",
+        "color": "#00FF00"
+    },
+    {
+        "id": 12,
+        "name": "remove",
+        "color": "#00FF00"
+    },
+    {
+        "id": 43,
+        "name": "rip",
+        "color": "#00FF00"
+    },
+    {
+        "id": 47,
+        "name": "roll",
+        "color": "#00FF00"
+    },
+    {
+        "id": 55,
+        "name": "rub",
+        "color": "#00FF00"
+    },
+    {
+        "id": 16,
+        "name": "scoop",
+        "color": "#00FF00"
+    },
+    {
+        "id": 25,
+        "name": "scrape",
+        "color": "#00FF00"
+    },
+    {
+        "id": 78,
+        "name": "screw",
+        "color": "#00FF00"
+    },
+    {
+        "id": 29,
+        "name": "scrub",
+        "color": "#00FF00"
+    },
+    {
+        "id": 48,
+        "name": "search",
+        "color": "#00FF00"
+    },
+    {
+        "id": 90,
+        "name": "season",
+        "color": "#00FF00"
+    },
+    {
+        "id": 82,
+        "name": "serve",
+        "color": "#00FF00"
+    },
+    {
+        "id": 53,
+        "name": "set",
+        "color": "#00FF00"
+    },
+    {
+        "id": 15,
+        "name": "shake",
+        "color": "#00FF00"
+    },
+    {
+        "id": 58,
+        "name": "sharpen",
+        "color": "#00FF00"
+    },
+    {
+        "id": 61,
+        "name": "slide",
+        "color": "#00FF00"
+    },
+    {
+        "id": 75,
+        "name": "smell",
+        "color": "#00FF00"
+    },
+    {
+        "id": 56,
+        "name": "soak",
+        "color": "#00FF00"
+    },
+    {
+        "id": 40,
+        "name": "sort",
+        "color": "#00FF00"
+    },
+    {
+        "id": 44,
+        "name": "spray",
+        "color": "#00FF00"
+    },
+    {
+        "id": 42,
+        "name": "sprinkle",
+        "color": "#00FF00"
+    },
+    {
+        "id": 18,
+        "name": "squeeze",
+        "color": "#00FF00"
+    },
+    {
+        "id": 81,
+        "name": "stab",
+        "color": "#00FF00"
+    },
+    {
+        "id": 50,
+        "name": "stretch",
+        "color": "#00FF00"
+    },
+    {
+        "id": 88,
+        "name": "switch",
+        "color": "#00FF00"
+    },
+    {
+        "id": 0,
+        "name": "take",
+        "color": "#00FF00"
+    },
+    {
+        "id": 13,
+        "name": "throw",
+        "color": "#00FF00"
+    },
+    {
+        "id": 67,
+        "name": "transition",
+        "color": "#00FF00"
+    },
+    {
+        "id": 23,
+        "name": "turn",
+        "color": "#00FF00"
+    },
+    {
+        "id": 65,
+        "name": "turn-down",
+        "color": "#00FF00"
+    },
+    {
+        "id": 8,
+        "name": "turn-off",
+        "color": "#00FF00"
+    },
+    {
+        "id": 6,
+        "name": "turn-on",
+        "color": "#00FF00"
+    },
+    {
+        "id": 83,
+        "name": "uncover",
+        "color": "#00FF00"
+    },
+    {
+        "id": 96,
+        "name": "unfreeze",
+        "color": "#00FF00"
+    },
+    {
+        "id": 91,
+        "name": "unlock",
+        "color": "#00FF00"
+    },
+    {
+        "id": 39,
+        "name": "unroll",
+        "color": "#00FF00"
+    },
+    {
+        "id": 71,
+        "name": "unscrew",
+        "color": "#00FF00"
+    },
+    {
+        "id": 84,
+        "name": "unwrap",
+        "color": "#00FF00"
+    },
+    {
+        "id": 76,
+        "name": "use",
+        "color": "#00FF00"
+    },
+    {
+        "id": 72,
+        "name": "wait",
+        "color": "#00FF00"
+    },
+    {
+        "id": 2,
+        "name": "wash",
+        "color": "#00FF00"
+    },
+    {
+        "id": 62,
+        "name": "water",
+        "color": "#00FF00"
+    },
+    {
+        "id": 68,
+        "name": "wear",
+        "color": "#00FF00"
+    },
+    {
+        "id": 36,
+        "name": "wrap",
+        "color": "#00FF00"
+    }
+]
