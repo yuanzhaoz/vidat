@@ -6,20 +6,6 @@ import { validateActionLabelData, validateObjectLabelData, validateSkeletonTypeD
 // import * as noun_data from '../verb_noun/noun.json';
 import noun_data from '../verb_noun/noun.json';
 import verb_data from '../verb_noun/verb.json';
-// var noun_data = require('../verb_noun/noun.json');
-// const {nouns} = noun_data;
-console.log(noun_data)
-console.log(noun_data[0])
-
-console.log(verb_data)
-console.log(verb_data[0])
-console.log('haha')
-
-// console.log([noun_data])
-// console.log(typeof(noun_data))
-
-// console.log(nouns)
-// console.log(typeof(nouns))
 
 for (let index = 0; index < verb_data.length; index++) {
     verb_data[index]['objects'] = [...Array(300).keys()];
