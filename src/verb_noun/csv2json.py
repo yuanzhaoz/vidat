@@ -17,26 +17,35 @@ with open('src/verb_noun/verb.csv', 'r') as file:
         verb_classes.append(row[1])
 verb_classes = verb_classes[1:]
 
-
 for i, noun in enumerate(noun_classes):
     noun_dict.append({
-      "id": i,
+      "id": i+1,
       "name": noun,
       "color": "#00FF00"
     })
 
 for i, verb in enumerate(verb_classes):
     verb_dict.append({
-      "id": i,
+      "id": i+1,
       "name": verb,
       "color": "#00FF00"
     })
 
-noun_dict = sorted(noun_dict, key=lambda d: d['name']) 
+noun_dict = sorted(noun_dict, key=lambda d: d['name'])
+noun_dict.insert(0, {
+    "id": 0,
+    "name": "default",
+    "color": "#00FF00"
+})
 with open('src/verb_noun/noun.json','w') as json_file:
     json.dump(noun_dict, json_file, indent=4)
 
 verb_dict = sorted(verb_dict, key=lambda d: d['name']) 
+verb_dict.insert(0, {
+    "id": 0,
+    "name": "default",
+    "color": "#00FF00"
+})
 with open('src/verb_noun/verb.json','w') as json_file:
     json.dump(verb_dict, json_file, indent=4)
 
