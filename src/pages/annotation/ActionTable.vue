@@ -147,18 +147,30 @@
             @update:model-value="handleActionInput(props.row)"
             use-input
             input-debounce="0"
-            @filter="filterList"
+            @filter="filterActionList"
           ></q-select>
         </q-td>
         <q-td>
           <q-select
             v-model="props.row.object"
-            :options="objectOptionMap[props.row.action]"
+            :options="filteredObjectList"
             dense
             options-dense
             borderless
             emit-value
             map-options
+            use-input
+            input-debounce="0"
+            @filter="
+              (val, update, abort) => {
+                filterObjectList(
+                  val,
+                  update,
+                  abort,
+                  objectOptionMap[props.row.action]
+                )
+              }
+            "
           ></q-select>
         </q-td>
         <q-td auto-width class="cursor-pointer text-center">
@@ -302,6 +314,7 @@ const handleAdd = () => {
     )
   )
   filteredActionObjectList.value = actionOptionList.value
+  // filteredObjectList.value = objectOptionMap[props.row.action]
 }
 const handleAddAdvance = () => {
   handleAdd()
@@ -355,7 +368,7 @@ const actionFilter = (rows, filter) => {
 }
 
 const filteredActionObjectList = ref([])
-
+const filteredObjectList = ref([])
 // body
 const actionOptionList = computed(() =>
   configurationStore.actionLabelData.map((label) => {
@@ -414,10 +427,19 @@ const handleDelete = (row) => {
   })
 }
 
-const filterList = (val, update, abort) => {
+const filterActionList = (val, update, abort) => {
   update(() => {
     const needle = val.toLowerCase()
     filteredActionObjectList.value = actionOptionList.value.filter(
+      (v) => v.label.toLowerCase().indexOf(needle) > -1
+    )
+  })
+}
+
+const filterObjectList = (val, update, abort, objectMapList) => {
+  update(() => {
+    const needle = val.toLowerCase()
+    filteredObjectList.value = objectMapList.filter(
       (v) => v.label.toLowerCase().indexOf(needle) > -1
     )
   })
